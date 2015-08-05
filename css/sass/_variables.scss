@@ -86,9 +86,10 @@ $colorMetaLightest:		desaturate(lighten($colorDefault, 73%), 75%);
 
 $colorPasspartoutBackground:	$colorStandardHellgrau;
 
-// Social Bar Startseite
 
-$colorSocial: $colorButton; // #a1aab1
+// Social Bar Startseite
+$colorSocial:			$colorDefault;
+$colorSocialBackground:		$colorMetaBackground;
 
 // Define Siegel
 $siegelurl: '../img/siegel-natfak.png';
