@@ -70,7 +70,7 @@ global $options;
 				$slidersrc = '<img src="'.fau_esc_url($sliderimage[0]).'" width="'.$options['slider-image-width'].'" height="'.$options['slider-image-height'].'" alt="">';	
 			    }
 			    echo $slidersrc."\n"; 
-			    if (!empty($copyright)) {
+			    if (($options['advanced_display_hero_credits']==true) && (!empty($copyright))) {
 				echo '<p class="credits">'.$copyright."</p>";
 			    }
 			    ?>
