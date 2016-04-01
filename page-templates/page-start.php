@@ -96,7 +96,12 @@ global $options;
 						<br><p><?php echo $abstract; ?></p>
 				</div>
 			    </div>
-		    <script type="text/javascript">
+		  
+		    </div>
+	    <?php endforeach; 
+              wp_reset_query();
+	      ?>
+		  <script type="text/javascript">
 			jQuery(document).ready(function($) {
 			$('#hero-slides').flexslider({
 				selector: '.hero-slide',
@@ -105,11 +110,6 @@ global $options;
 			});
 		    });
 		    </script>
-		    </div>
-	    <?php endforeach; 
-              wp_reset_query();
-	      ?>
-		
 		</div>
 	
 		<div class="container">
@@ -251,12 +251,13 @@ global $options;
 			 
 			echo fau_get_ad('werbebanner_unten',true);
 			
-			 $logoliste = get_post_meta( $post->ID, 'fauval_imagelink_catid', true );
-			 if ($logoliste) { ?>	
-			    <hr>
-			    <?php 
-			    fau_get_imagelinks($logoliste);
-			     
+			 $logoliste = get_post_meta( $post->ID, 'fauval_imagelink_catid', true );			
+			 if ($logoliste) { 
+			    $logos = fau_get_imagelinks($logoliste, false);
+			    if ((isset($logos) && (!empty($logos)))) {
+				echo "<hr>\n";
+				echo $logos;
+			    }
 			 }
 			
 			 ?>
