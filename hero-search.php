@@ -31,7 +31,7 @@ global $options;
 					    echo '<div class="filter">';
 					    $query_types = get_query_var('post_type');
 					    $listtypes = $options['search_post_types'];
-					    $allowed_types = get_post_types(array('public' => true, 'exclude_from_search' => false));
+					     $allowed_types = get_post_types(array('public' => true, 'exclude_from_search' => false));
                                        
 					    foreach ($listtypes as $type) {                                                
                                                 if( in_array( $type, $allowed_types ) ) {
@@ -43,7 +43,6 @@ global $options;
                                                     echo '<label for="label-'.$type.'">'.$typestr.'</label></div>';
                                                 }
 					    }
-					  
 					    echo "</div>\n";
 					}
 					?>
