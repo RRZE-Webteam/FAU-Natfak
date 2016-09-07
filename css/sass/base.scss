@@ -6,7 +6,7 @@ Main CSS File for Wordpress Theme FAU
 @import "variables";
 
 // Import Grid System, Mixins, Webfonts and Helper Classes
-@import "includes/bootstrap";
+@import "includes/bootstrap"; 
 @import "includes/bootstrap_colgrids";
 
 
@@ -21,6 +21,9 @@ Main CSS File for Wordpress Theme FAU
 @import "base-organisms";
 @import "base-molecules";
 @import "base-overwrites";
+
+// Plugin FAU_Person
+@import "plugin-fau_person"; 
 
 // Import Plugin Stylings
 @import "plugin-flexslider";
