@@ -11,7 +11,7 @@ $defaultoptions = array(
 	// wurde oder die Theme Options von Hand aufgerufen und gespeichert wurden.
     'js-version'			=> '1.6',
 	// Theme-Versionslinie
-    'website_type'			=> 2,
+    'website_type'			=> 1,
 	// website_type: 
 	//  0 = Fakultaetsportal; 
 	//  1 = Lehrstuehle, Departents 
@@ -19,7 +19,7 @@ $defaultoptions = array(
 	//  3 = Kooperationen 
 	// -1 = fau.de Portal (4 Spalter in Bühne, kein Link zur FAU. 
 	//                       Nur wählbar für definierte Domains)
-    'website_usefaculty'		=> '',
+    'website_usefaculty'		=> 'nat',
 	// phil, med, nat, rw, tf
 	// Setzt fest die Fakultät bei Wahl des Website-Types    
     'website_allow_fauportal'		=> array('www.fau.de',
