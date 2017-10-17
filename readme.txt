@@ -1,4 +1,4 @@
-FAU-Medfak
+FAU-Natfak
 Wordpress-Theme für die Naturwissenschaftliche Fakultät der 
 Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 ====================================================
