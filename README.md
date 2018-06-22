@@ -1,12 +1,12 @@
 # FAU-Einrichtungen
 
-Wordpress-Theme für zentrale Einrichtungen der Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
+Wordpress-Theme für die naturwissenschaftliche Fakultät der Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
 Eine Dokumentation kann unter https://wordpress.rrze.fau.de  gefunden werden.
 
 ## Download 
 
-GITHub-Repo: https://github.com/RRZE-Webteam/FAU-Einrichtungen
+GITHub-Repo: https://github.com/RRZE-Webteam/FAU-Natfak
 
 
 ## Autor 
