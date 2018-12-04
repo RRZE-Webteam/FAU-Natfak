@@ -1,4 +1,4 @@
-# FAU-Einrichtungen
+# FAU-Natfak
 
 Wordpress-Theme für die naturwissenschaftliche Fakultät der Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
