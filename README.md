@@ -1,7 +1,12 @@
 # FAU-Natfak
 
+[![Release Version](https://img.shields.io/github/v/release/rrze-webteam/FAU-Natfak?label=Release+Version)](https://github.com/rrze-webteam/fau-natfak/releases/) [![GitHub License](https://img.shields.io/github/license/rrze-webteam/fau-natfak?label=Lizenz)](https://github.com/RRZE-Webteam/FAU-Natfak/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/rrze-webteam/fau-einrichtungen)](https://github.com/RRZE-Webteam/FAU-Einrichtungen/issues)
+
 Wordpress-Theme für die Naturwissenschaftliche Fakultät der Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
+## Screenshot
+
+![Beispiel Theme Screenshot](screenshot.png)
 
 ## Download 
 
