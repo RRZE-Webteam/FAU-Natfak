@@ -10,7 +10,7 @@ Wordpress-Theme für die Naturwissenschaftliche Fakultät der Friedrich-Alexande
 
 ## Download 
 
-GITHub-Repo: https://github.com/RRZE-Webteam/FAU-Natfak
+GitHub-Repo: https://github.com/RRZE-Webteam/FAU-Natfak
 
 ## Autor 
 
